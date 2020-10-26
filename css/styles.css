@@ -1,3 +1,9 @@
+/* html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+} */
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
@@ -6,12 +12,13 @@ body{
     width: 100%;     
 }
 
+
 .wrapper-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3px 0;
-    box-shadow: 0px 4px 4px -5px;
+    box-shadow: 0px 4px 4px -4px;
     font-family: Arial;
     font-size: 13px;
     font-weight: bold;
@@ -32,17 +39,20 @@ body{
 
 .icon{
     justify-content: space-between;
-    width: 10%;
+    width: 17%;
     display: flex;
     font-size: 15px;
     margin-right: 10%;
+    align-content: center;
 }
 .home{
     display: flex;
     margin-top: 30px;
-    margin-left: 5%;
-    
-    
+    margin-left: 5%;  
+
+}
+.home i{
+    margin-right: 10px;
 }
 .image{
     display: flex;
@@ -53,14 +63,19 @@ body{
 .image h1{
     margin-left: 5%;
 }
-.image-word blockquote{
+.image-word{
+    text-align: justify; 
+    width: 50%;
+    margin-left: 5%;
+}
+/* .image-word blockquote{
     font-size: 14px;
 }
 .image-word h2{
     margin-left: 5%;
-}
+} */
 .image-icons{
-    margin-left: 5%;
+    margin-left: -1%;
 }
 .image-icons span{
     
@@ -74,46 +89,51 @@ body{
 .item{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    background-color: whitesmoke;
-    width: 90%;
+    background-color: rgb(245, 245, 245);
+    width: 86%;
     height: 120px;
-    margin-left: 5%;
+    margin-left: 6%;
+    
 }
 .item-content{
-    margin-left: 10px;
+    margin-left: 9%;
+    margin-top: 20px;
+
 }
 .item-form{
-    margin-left: 50%;
-    padding-top: 3%;
+    margin-left: 280px;
+    padding-top: 5%;
 }
 .item-form input{
-    height: 23px;
-    width: 250px; 
+    height: 35px;
+    width: 300px; 
     border: white; 
-    
 }
 .item-form button{
   background: yellow;
   border: white;
-  height: 30px;
-  width: 90px;
-  font-size: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 35px;
+  width: 120px;
+  font-size: 11px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  padding-top: 4px
-  
+  padding-top: 4px;
+  border-radius: 4px;  
 }
 .images{
     margin-left: 6%;
     padding-top: 3%;
     width: 100%;
 }
+.images img{   
+    max-width: 100%;   
+}
 
 .footer{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin-left: 5%;
+    width: 86%;
+    margin-left: 6%
 }
 
 .footer-tags button{
@@ -122,9 +142,7 @@ body{
     border: white;
     padding: 10px 10px;
 }
-/* .footer-follow{
-    display: inline;
-} */
+
 .footer-follow span{
     margin: 5px;
     background: whitesmoke;
@@ -132,17 +150,18 @@ body{
     padding:10px;
     font-size:10px;
 }
-.footer-posts{
-    float: left;
+
+.footer-post img{
+  float: left;
+  margin-right: 20px;
+  
 }
-.footer-posts-comment i{
-    color: orange;
-}
-.footer-posts-comment p{
-    font-size: 12px; 
-    
-    
+.footer-post p{
+    font-size: 11px;
 }
 .red{ color: red;}
 .blue{ color: blue;}
+
+
+
 
