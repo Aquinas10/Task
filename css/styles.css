@@ -5,8 +5,7 @@
     box-sizing: inherit;
 } */
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0;
+    font-family: 'Open Sans',sans-serif;
     margin: 0;
     background-color: white;
     width: 100%;     
@@ -18,7 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 3px 0;
-    box-shadow: 0px 4px 4px -4px;
+    box-shadow: 0px 4px 4px -5px;
     font-family: Arial;
     font-size: 13px;
     font-weight: bold;
@@ -66,14 +65,9 @@ body{
 .image-word{
     text-align: justify; 
     width: 50%;
-    margin-left: 5%;
+    margin-left: 4%;
 }
-/* .image-word blockquote{
-    font-size: 14px;
-}
-.image-word h2{
-    margin-left: 5%;
-} */
+
 .image-icons{
     margin-left: -1%;
 }
@@ -133,7 +127,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 86%;
-    margin-left: 6%
+    margin-left: 6%;    
 }
 
 .footer-tags button{
@@ -159,6 +153,7 @@ body{
 .footer-post p{
     font-size: 11px;
 }
+ 
 .red{ color: red;}
 .blue{ color: blue;}
 
